@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c304b19e3a134134faa5bd3653c5d9b1, type: 3}
+  m_Name: AeroScout S2
+  m_EditorClassIdentifier: 
+  droneName: AeroScout S2
+  description: AeroScout S2
+  thumbnail: {fileID: 0}
+  difficulty: 0
+  mass: 1.3
+  maxThrustScale: 2
+  maxTiltAngle: 35
+  yawRate: 150
+  acroRate: 250
+  pidP: 7
+  pidI: 0.15
+  pidD: 0.8
+  baseDrag: 0.7
+  angleAngularDrag: 2.5
+  acroAngularDrag: 0.8
+  horizonTransitionPoint: 0.5
+  defaultFlightMode: 0

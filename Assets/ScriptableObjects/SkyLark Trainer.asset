@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c304b19e3a134134faa5bd3653c5d9b1, type: 3}
+  m_Name: SkyLark Trainer
+  m_EditorClassIdentifier: 
+  droneName: SkyLark Trainer
+  description: SkyLark Trainer
+  thumbnail: {fileID: 0}
+  difficulty: 0
+  mass: 1.5
+  maxThrustScale: 1.8
+  maxTiltAngle: 30
+  yawRate: 120
+  acroRate: 200
+  pidP: 8
+  pidI: 0.2
+  pidD: 1
+  baseDrag: 0.8
+  angleAngularDrag: 3
+  acroAngularDrag: 1
+  horizonTransitionPoint: 0.5
+  defaultFlightMode: 0
